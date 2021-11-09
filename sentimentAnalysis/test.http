@@ -1,0 +1,12 @@
+POST http://localhost:7071/api/sentimentAnalysis
+# POST https://jehollan-europydev.azurewebsites.net/api/analysesentiment
+Content-Type: application/json
+
+# {
+#     "name": "harish"
+# }
+
+
+{
+    "text": "This app is very good regarding it purpose"
+}
